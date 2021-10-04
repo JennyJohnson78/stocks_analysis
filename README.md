@@ -18,8 +18,9 @@ Instead of nested loops, an array of the stocks was created and iterated over:
 
 ![image](https://user-images.githubusercontent.com/67409852/135784805-314ad767-c3e3-4eb6-97d7-d911c758b8fe.png)
 
-Because the nested loops have now been replaced, these are the run times for each year's code:
+Because the nested loops have now been replaced, these are the run times for each year:
 
 ![image](https://user-images.githubusercontent.com/67409852/135784508-aeccdf58-4fa0-4241-bfac-e1a7ad5a993d.png)
 
 ## Summary
+Refractoring is beneficial because it cuts down on the amount of time complex chunks of code take to run. In the world of finance, and for Steve's needs, this is a great advantage. The code is also easier to read. Adownside to refractoring that was encountered was that if a specific line or chunk of code needs to be removed and is not done properly, you can receive a prompt that warns the entire macro (all code) will be "reset". While this is frustrating, one remedy is to write the code in an editor, such as Visual Studio Code or Notepad, and then paste that entire code into the macro. Since writing out code beforehand is a good practice in data analytics in its own right, the benefits of refractoring still outweight the disadvantages.
