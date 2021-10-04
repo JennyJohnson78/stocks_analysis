@@ -1,6 +1,6 @@
 # Stocks Analysis
 ## Overview
-Steve is a financial analyst who is seeking help to analyze stocks to determine which ones yield the greatest returns. There are 12 stocks he would like to have analyzed for the years of 2017 and 2018. The VBA code that was written for him will need to be refractored to allow for a more complex analysis that won't take a long time to run. 
+Steve is a financial analyst who is seeking help to analyze stocks for his clients to determine which ones yield the greatest returns. There are 12 stocks he would like to have analyzed for the years of 2017 and 2018. The VBA code that was written for him will need to be refractored to allow for a more complex analysis that won't take a long time to run. 
 
 ## Results
 
@@ -10,4 +10,4 @@ The Total Daily Volume is the number of trades of the given stock for a day, ove
 ```
 Cells(4 + i, 3).Value = (tickerEndingPrices(i) / tickerStartingPrices(i)) - 1
 ```
-showing if the stock gained value or lost value. Green signifies an increase in value, while red signifies a decrease in value. 
+showing if the stock gained value or lost value. Green signifies an increase in value, while red signifies a decrease in value. From the data, it can be determined that more stocks increased in value in 2017, with only the stock "TERP" losing value. The top stocks for 2017 were "DQ" and "SEDG". However, in 2018, most stocks lost value and are "in the red". Only "ENPH" and "RUN" gained value, with "DQ", the stock Steve's clients were originally interested in. Due to our finidings, it would be beneficial to share this information with his clients and suggest a different stock to invest in, perhaps "RUN", which is the only stock that gained value from 2017 to 2018.
