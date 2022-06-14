@@ -12,7 +12,7 @@ Cells(4 + i, 3).Value = (tickerEndingPrices(i) / tickerStartingPrices(i)) - 1
 ```
 showing if the stock gained value or lost value. Green signifies an increase in value, while red signifies a decrease in value. From the data, it can be determined that more stocks increased in value in 2017, with only the stock "TERP" losing value. The top stocks for 2017 were "DQ" and "SEDG". However, in 2018, most stocks lost value and are "in the red". Only "ENPH" and "RUN" gained value, with "DQ", the stock Steve's clients were originally interested in. Due to our finidings, it would be beneficial to share this information with his clients and suggest a different stock to invest in, perhaps "RUN", which is the only stock that gained value from 2017 to 2018.
 
-The original code, consisting of nested loops, took over a second to iterate through all of the data Steve wanted analyzed. By using refractored code, the time the code ran for was cut drastically.
+The original code, consisting of nested loops, took over a second to iterate through all of the data Steve wanted analyzed. By using refactored code, the time the code ran for was cut drastically.
 
 Instead of nested loops, an array of the stocks was created and iterated over:
 
@@ -23,4 +23,4 @@ Because the nested loops have now been replaced, these are the run times for eac
 ![image](https://user-images.githubusercontent.com/67409852/135784508-aeccdf58-4fa0-4241-bfac-e1a7ad5a993d.png)
 
 ## Summary
-Refractoring is beneficial because it cuts down on the amount of time complex chunks of code take to run. In the world of finance, and for Steve's needs, this is a great advantage. The code is also easier to read. Adownside to refractoring that was encountered was that if a specific line or chunk of code needs to be removed and is not done properly, you can receive a prompt that warns the entire macro (all code) will be "reset". While this is frustrating, one remedy is to write the code in an editor, such as Visual Studio Code or Notepad, and then paste that entire code into the macro. Since writing out code beforehand is a good practice in data analytics in its own right, the benefits of refractoring still outweight the disadvantages.
+Refactoring is beneficial because it cuts down on the amount of time complex chunks of code take to run. In the world of finance, and for Steve's needs, this is a great advantage. The code is also easier to read. A downside to refactoring that was encountered was that if a specific line or chunk of code needs to be removed and is not done properly, you can receive a prompt that warns the entire macro (all code) will be "reset". While this is frustrating, one remedy is to write the code in an editor, such as Visual Studio Code or Notepad, and then paste that entire code into the macro. Since writing out code beforehand is a good practice in data analytics in its own right, the benefits of refactoring still outweight the disadvantages.
